@@ -8,7 +8,7 @@ dotev.config();
 const PORT = 8080;
 
 app.get("/", (req, res) => {
-  res.json("Hello Ankit. This is testing of the github stuff");
+  res.json("Hello Dubey. This is testing of the github stuff");
 });
 
 app.listen(PORT, () => {
