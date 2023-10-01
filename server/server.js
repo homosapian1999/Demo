@@ -8,7 +8,7 @@ dotev.config();
 const PORT = process.env.PORT;
 
 app.get("/", (req, res) => {
-  res.json("Hello");
+  res.json("Hello Ankit. This is testing of the github stuff");
 });
 
 app.listen(PORT, () => {
