@@ -5,7 +5,7 @@ const app = express();
 
 dotev.config();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
   res.json("Hello Ankit. This is testing of the github stuff");
